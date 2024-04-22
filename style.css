@@ -1,0 +1,38 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+#listaProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #000;
+    list-style: none;
+}
+.card { 
+    width: 200px; 
+    padding: 10px; 
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    text-align: center; 
+    background-color: 'beige'; 
+}
+
+.card-body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+button { 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #000; 
+    color: #fff; 
+    cursor: pointer; 
+}
