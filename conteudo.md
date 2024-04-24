@@ -1,4 +1,4 @@
-- Destruturação de objetos 
+- Desestruturação de objetos 
 - Trabalhando com dados mockados 
 - Manipulação de DOM 
 - Cadeia de protótipos (OO no JS)
